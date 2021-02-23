@@ -1,6 +1,6 @@
 # private
 
-Private allows you to make your module functions or class methods private. The private methods, when called would raise NameError exception.
+_Private_ allows you to make your module functions or class methods private. The private methods, when called would raise NameError exception.
 
 ## Installation
 You need to clone the repo.
