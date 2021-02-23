@@ -33,7 +33,7 @@ if [ $? -ne 0 ];then
 fi
 import_path=$import_path"/"
 
-cp ./private.py __init__.py $import_path
+cp __init__.py $import_path
 if [ $? -ne 0 ];then
 	echo "Unable to copy files to "$import_path\
 			 ". Try running the script as sudo e.g. > sudo ./install.sh"
