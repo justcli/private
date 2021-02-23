@@ -45,5 +45,5 @@ class foo:
 ```
 Every function or class method with _@private_ decorator become uncallable for any external code.
 
-It works with Python shell, Python debugger and iPython.
+It also works with Python shell, Python debugger and iPython.
 
