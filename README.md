@@ -43,5 +43,6 @@ class foo:
   def can_be_exported():
     pass
 ```
-Every function or clas method with _private_ decorator will be unavailable to outside.
+Every function or class method with _@private_ decorator become uncallable for any external code.
+It has been tested to work with Python shell, Python debugger and iPython.
 
