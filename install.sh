@@ -41,7 +41,6 @@ if [ $? -ne 0 ];then
 fi
 echo "Files copied to "$import_path":"
 echo "  __init__.py"
-echo "  private.py"
 
 echo "Installation done!."
 
