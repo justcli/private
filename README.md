@@ -5,7 +5,7 @@ Private allows you to make your module functions or class methods private. The p
 ## Installation
 You need to clone the repo.
 ```
-> git clone 
+> git clone git@github.com:justcli/private.git
 ```
 Then run the install script from the repot directory.
 
