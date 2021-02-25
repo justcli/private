@@ -25,7 +25,7 @@ def private(fn):
     def _restrict(*args, **kwargs):
         caller = inspect.stack()[1].function
         if caller not in __functions:
-            raise NameError("Private function called")
+            raise TypeError("Private function called")
         else:
             return fn(*args, **kwargs)
     return _restrict
